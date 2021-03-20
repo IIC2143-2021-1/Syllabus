@@ -41,4 +41,4 @@ def galletas azucar,manteca
 	puts manteca
 end
 
-galletas "hello","me encatas":2,"ss":3
+galletas {"me encatas":2,"ss":3}, "hello"

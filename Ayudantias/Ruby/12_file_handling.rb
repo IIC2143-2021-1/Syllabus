@@ -7,7 +7,10 @@ File.open("files/read.txt", "r").each do |line|
 end
 
 # Print to file!
-File.open("files/write.txt", "w") do |f|
+File.open("files/write.txt", "a") do |f|
+  f.each do |file|
+    puts file
+  end
   f.puts "Mi primera línea"
   f.puts "Esto se escribe en otra línea!"
 end
@@ -27,7 +30,7 @@ puts csv_file
 print csv_file
 # Note that csv_file is a bidimensional array.
 
-# CSV.open 'files/written.csv', 'w' do |csv|
-# 	csv << ["Hola","Mundo"]
-# 	csv << ["Chao","mundo"]
-# end
+CSV.open 'files/read.csv', 'a' do |csv|
+	csv << ["Hola","Mundo"]
+	csv << ["Chao","mundo"]
+end

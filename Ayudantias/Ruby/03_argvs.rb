@@ -8,3 +8,5 @@ second_element = ARGV[1]
 
 # Print both elements separated by a comma
 puts "#{first_element}, #{second_element}"
+
+print ARGV

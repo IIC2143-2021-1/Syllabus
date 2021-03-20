@@ -11,5 +11,5 @@ def implicit_addition(first, second)
 end
   
 # Log both results
-puts addition(2, 3)           # It obviously returns
-puts implicit_addition(2, 3)  # What happens with this function call?
+puts addition 2, 3           # It obviously returns
+puts implicit_addition 2, 3  # What happens with this function call?

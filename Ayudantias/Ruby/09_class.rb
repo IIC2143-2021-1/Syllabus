@@ -1,7 +1,7 @@
 class Perratzo
 
   ### Attribute accessor for re-running the module using it uncommented ###
-  # attr_accessor :piscolits
+  attr_accessor :piscolits
   
   def initialize(piscolits)  # __init__ method in python
     @piscolits = piscolits   # @attributes are instance attributes
@@ -27,8 +27,8 @@ end
 
 # Create standard Perratzo instance
 perro = Perratzo.new(3)
-perro.piscolits
-# puts perro.piscolits
+perro.piscolits = 4
+puts perro.piscolits
 
 # ### This won't work unless the attribute accessor is uncommented ###
 # ### and the piscolits method is commented ###

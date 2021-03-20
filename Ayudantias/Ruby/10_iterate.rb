@@ -22,4 +22,5 @@ index = 0
 while index < week.length
   puts week[index]
   index += 1
+  break
 end

@@ -1,6 +1,6 @@
 CONST_1 = "Soy la constante global 1"
 CONST_2 = "Soy la constante global 2"
-var_3 = "Soy la variable local 3"
+$var_3 = "Soy la variable local 3"
 
 
 #Local variables are local: they don't survive across a require. Global variables ($code_words), constants (CODE_WORDS)
