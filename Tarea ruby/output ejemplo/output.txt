@@ -1,20 +1,20 @@
 COMIENZO ENTRENADORES LIGA
-{Moises,19}{Kadabra}{Weepinbell}{Mankey}{Magnemite}{Scyther}{Rattata}
-{Ignacio,32}{Persian}{Poliwrath}{Machop}{Bulbasaur}{Nidoran}{Magmar}
+{Moises,17}{Kadabra}{Weepinbell}{Mankey}{Magnemite}{Scyther}{Rattata}
+{Ignacio,30}{Persian}{Poliwrath}{Machop}{Bulbasaur}{Nidoran}{Magmar}
 {Jerry,45}{Dragonite}{Omanyte}{Jolteon}{Lapras}{Gloom}{Poliwhirl}
-{Jose Antonio,28}{Ninetales}{Geodude}{Jolteon}{Seadra}{Squirtle}{Vaporeon}
-{Cristobal,41}{Koffing}{Poliwrath}{Growlithe}{Mankey}{Machamp}{Metapod}
-{Catalina,37}{Blastoise}{Zapdos}{Electabuzz}{Seel}{Ditto}{Jolteon}
+{Jose Antonio,26}{Ninetales}{Geodude}{Jolteon}{Seadra}{Squirtle}{Vaporeon}
+{Cristobal,40}{Koffing}{Poliwrath}{Growlithe}{Mankey}{Machamp}{Metapod}
+{Catalina,34}{Blastoise}{Zapdos}{Electabuzz}{Seel}{Ditto}{Jolteon}
 FIN ENTRENADORES LIGA
 COMIENZO TOP ENTRENADORES
 {3,Jerry,45}
-{5,Cristobal,41}
-{6,Catalina,37}
-{2,Ignacio,32}
-{4,Jose Antonio,28}
+{5,Cristobal,40}
+{6,Catalina,34}
+{2,Ignacio,30}
+{4,Jose Antonio,26}
 FIN TOP ENTRENADORES
 COMIENZO TOP POKEMONES
-{Dragonite,5}
-{Koffing,4}
-{Machamp,3}
+{Gloom,5}
+{Poliwhirl,5}
+{Metapod,4}
 FIN TOP POKEMONES
