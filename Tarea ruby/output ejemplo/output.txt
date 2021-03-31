@@ -1,10 +1,10 @@
 COMIENZO ENTRENADORES LIGA
-{Moises,19}{Rattata}{Mankey}{Kadabra}{Weepinbell}{Magnemite}{Scyther}
-{Ignacio,32}{Bulbasaur}{Nidoran}{Persian}{Poliwrath}{Machop}{Magmar}
-{Jerry,45}{Gloom}{Poliwhirl}{Lapras}{Jolteon}{Omanyte}{Dragonite}
-{Jose Antonio,28}{Squirtle}{Ninetales}{Geodude}{Seadra}{Vaporeon}{Jolteon}
-{Cristobal,41}{Metapod}{Mankey}{Growlithe}{Poliwrath}{Machamp}{Koffing}
-{Catalina,37}{Blastoise}{Seel}{Electabuzz}{Ditto}{Jolteon}{Zapdos}
+{Moises,19}{Kadabra}{Weepinbell}{Mankey}{Magnemite}{Scyther}{Rattata}
+{Ignacio,32}{Persian}{Poliwrath}{Machop}{Bulbasaur}{Nidoran}{Magmar}
+{Jerry,45}{Dragonite}{Omanyte}{Jolteon}{Lapras}{Gloom}{Poliwhirl}
+{Jose Antonio,28}{Ninetales}{Geodude}{Jolteon}{Seadra}{Squirtle}{Vaporeon}
+{Cristobal,41}{Koffing}{Poliwrath}{Growlithe}{Mankey}{Machamp}{Metapod}
+{Catalina,37}{Blastoise}{Zapdos}{Electabuzz}{Seel}{Ditto}{Jolteon}
 FIN ENTRENADORES LIGA
 COMIENZO TOP ENTRENADORES
 {3,Jerry,45}
