@@ -1,0 +1,27 @@
+<h1>Nuevo juego</h1>
+
+<%= form_with(model: @game, method: :post) do |form| %>
+    <div class="field">
+        <%= form.label :Título %>
+        <%= form.text_field :title %>
+    </div>
+
+    <div class="field">
+        <%= form.label :Rating %>
+        <%= form.text_field :rating %>
+    </div>
+
+    <div class="field">
+        <%= form.label :Tamaño %>
+        <%= form.text_field :size_mb %>
+    </div>
+
+    <div class="field">
+        <%= form.label :Descripción %>
+        <%= form.text_field :description %>
+    </div>
+    <div class="action">
+        <%= form.submit "Crear Juego"%>
+    </div>
+<% end %>
+<p><%= link_to 'Volver', games_index_path %></p>

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Título:</strong>
+  <%= @song.title %>
+</p>
+
+<p>
+  <strong>Autor:</strong>
+  <%= @song.author %>
+</p>
+
+<p>
+  <strong>Álbum:</strong>
+  <%= @song.album %>
+</p>
+
+<p>
+  <strong>Formato:</strong>
+  <%= @song.format %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @song.rating %>
+</p>
+
+<p>
+  <strong>Tamaño(mb):</strong>
+  <%= @song.size_mb %>
+</p>
+
+<%= link_to 'Editar', edit_song_path(@song) %> |
+<%= link_to 'Volver', songs_path %>
+<%= link_to 'Eliminar', @song, method: :delete, data: { confirm: 'Are you sure?' } %>

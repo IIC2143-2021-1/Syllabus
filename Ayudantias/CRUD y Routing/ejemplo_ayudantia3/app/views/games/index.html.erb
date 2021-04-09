@@ -1,0 +1,30 @@
+<h1>Juegos</h1>
+
+<p><%= notice %></p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Rating</th>
+            <th>Tamaño</th>
+            <th>DesCripCión</th>
+            <th colspan="3">Acciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <% @games.each do |game| %>
+            <tr>
+                <td><%= game.title %></td>
+                <td><%= game.rating %></td>
+                <td><%= game.size_mb %></td>
+                <td><%= game.description %></td>
+                <td><%= link_to 'Ver detalle', games_show_path(game.id)%></br><%= link_to 'Descargar' %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
+
+<%= link_to 'Inicio', home_home_path %>
+<%= link_to 'Subir nuevo juego', games_new_path %>
