@@ -1,0 +1,31 @@
+COMIENZO ENTRENADORES LIGA
+{Ignacio,78}{Magikarp}{Dugtrio}{Bulbasaur}{Zapdos}{Machoke}{Tentacool}
+{Simon,139}{Rhydon}{Pidgeotto}{Slowbro}{Clefable}{Seaking}{Ditto}
+{Maria Jose,133}{Starmie}{Weedle}{Mewtwo}{Magikarp}{Pinsir}{Poliwrath}
+{Josefa,123}{Ninetales}{Clefable}{Victreebel}{Dragonair}{Abra}{Dodrio}
+{Florencia,93}{Ekans}{Omastar}{Magikarp}{Abra}{Sandslash}{Kangaskhan}
+{Felipe,129}{Zapdos}{Zubat}{Poliwrath}{Nidoking}{Dragonair}{Ditto}
+{Cristobal,47}{Vaporeon}{Butterfree}{Oddish}{Geodude}{Nidoran}{Nidoran}
+{Catalina,62}{Seaking}{Diglett}{Dragonair}{Bellsprout}{Gengar}{Vulpix}
+{Alejandro,99}{Machamp}{Cloyster}{Porygon}{Voltorb}{Horsea}{Seel}
+{Daniel,106}{Eevee}{Poliwrath}{Slowpoke}{Parasect}{Zubat}{Weepinbell}
+{Tomas,55}{Doduo}{Wartortle}{Persian}{Bulbasaur}{Goldeen}{Ponyta}
+{Javiera,144}{Snorlax}{Lapras}{Paras}{Kangaskhan}{Primeape}{Shellder}
+{Matias,70}{Cubone}{Alakazam}{Golbat}{Shellder}{Jolteon}{Seaking}
+{Jose Antonio,111}{Golem}{Dewgong}{Pidgeotto}{Venonat}{Raichu}{Pidgey}
+{Jerry,119}{Golduck}{Raticate}{Kangaskhan}{Mr. Mime}{Rattata}{Slowbro}
+{Moises,94}{Ivysaur}{Slowbro}{Dragonair}{Ponyta}{Raticate}{Cubone}
+{Cris,110}{Marowak}{Pidgey}{Primeape}{Electrode}{Pidgeotto}{Mewtwo}
+FIN ENTRENADORES LIGA
+COMIENZO TOP ENTRENADORES
+{12,Javiera,144}
+{2,Simon,139}
+{3,Maria Jose,133}
+{6,Felipe,129}
+{4,Josefa,123}
+FIN TOP ENTRENADORES
+COMIENZO TOP POKEMONES
+{Ditto,28}
+{Kangaskhan,24}
+{Slowbro,18}
+FIN TOP POKEMONES
