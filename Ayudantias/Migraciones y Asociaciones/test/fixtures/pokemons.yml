@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  kind: MyString
+  trainerID: 1
+
+two:
+  name: MyString
+  kind: MyString
+  trainerID: 1

@@ -1,0 +1,16 @@
+<h1>Pokemons#index</h1>
+<p>Find me in app/views/pokemons/index.html.erb</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th> Nombre Movimiento</th>
+        <tr>
+    <thead>
+    <tbody>
+        <% @pokemon.movements.each do |movement|%>
+            <tr>
+                <td><%= movement.name%></td>
+            <tr>
+        <%end%>
+    </tbody>
+</table>

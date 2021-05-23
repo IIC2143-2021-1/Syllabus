@@ -1,0 +1,28 @@
+<h1>Pokemons#index</h1>
+<p>Find me in app/views/pokemons/index.html.erb</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th> Nombre </th>
+            <th> Tipo </th>
+            <th> Atque </th>
+            <th> Defensa </th>
+            <th> Velocidad </th>
+            <th> ID entrenador </th>
+            <th> Ver Detalles </th>
+        <tr>
+    <thead>
+    <tbody>
+        <% @pokemons.each do |pokemon|%>
+            <tr>
+                <td><%= pokemon.name%></td>
+                <td><%= pokemon.kind%></td>
+                <td><%= pokemon.attack%></td>
+                <td><%= pokemon.defense%></td>
+                <td><%= pokemon.speed%></td>
+                <td><%= pokemon.trainer_id%></td>
+                <td><%= link_to "ver detalles", pokemon_path(pokemon.id)%></td>
+            <tr>
+        <%end%>
+    </tbody>
+</table>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UmbreonApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link rel="shortcut icon" href="https://c3.klipartz.com/pngpicture/29/35/sticker-png-eveelution-umbreon-pokemon-meoth-thumbnail.png" />
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <a href="/">Home</a>
+  <a href="/trainers/new">New Trainer</a>
+  <a href="/trainers/index">All Trainers</a>
+  <a href="/pokemons/new">New Pokemon</a>
+  <a href="/pokemons/index">All Pokemons</a>
+  <a href="/movements/new">New Movement</a>
+  <a href="/movements/index">All Movements</a>
+    <%= yield %>
+  </body>
+</html>

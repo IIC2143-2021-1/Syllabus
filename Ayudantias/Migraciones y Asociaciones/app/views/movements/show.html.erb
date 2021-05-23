@@ -1,0 +1,18 @@
+<h1>Movements#show</h1>
+
+<h1>Movements#show</h1>
+<p>Find me in app/views/movements/show.html.erb</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th> Nombre Pokemons que lo pueden usar </th>
+        <tr>
+    <thead>
+    <tbody>
+        <% @movement.pokemons.each do |pokemon|%>
+            <tr>
+                <td><%= pokemon.name%></td>
+            <tr>
+        <%end%>
+    </tbody>
+</table>

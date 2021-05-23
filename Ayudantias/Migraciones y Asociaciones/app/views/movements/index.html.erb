@@ -1,0 +1,19 @@
+<h1>Movements#index</h1>
+<p>Find me in app/views/movements/index.html.erb</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th> Nombre </th>
+            <th> Potencia </th>
+        <tr>
+    <thead>
+    <tbody>
+        <% @movements.each do |movement|%>
+            <tr>
+                <td><%= movement.name%></td>
+                <td><%= movement.power%></td>
+                <td><%= link_to "ver detalles", movement_path(movement.id)%></td>
+            <tr>
+        <%end%>
+    </tbody>
+</table>

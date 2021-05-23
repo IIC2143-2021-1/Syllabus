@@ -1,0 +1,24 @@
+<h1>Detalles del entrenadorr</h1>
+<p>
+  <strong>Nombre:</strong>
+  <%= @trainer.name %>
+</p>
+
+<p>
+  <strong>Sexo:</strong>
+  <%= @trainer.sex %>
+</p>
+
+<p>
+  <strong>Dinero:</strong>
+  <%= @trainer.money%>
+</p>
+
+<p>
+  <strong>Es lider de gimnacio:</strong>
+  <%= @trainer.gym_leader %>
+</p>
+
+<%= link_to "Editar", trainer_edit_path%>
+<%= link_to "Eliminar", trainer_path, method: :delete%>
+

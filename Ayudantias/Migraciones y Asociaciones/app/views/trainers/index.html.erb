@@ -1,0 +1,23 @@
+<h1>Trainers#index</h1>
+<p>Find me in app/views/trainers/index.html.erb</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th> Nombre </th>
+            <th> Sexo </th>
+            <th> Dinero </th>
+            <th> Gym Lider </th>
+        <tr>
+    <thead>
+    <tbody>
+        <% @trainers.each do |trainer|%>
+            <tr>
+                <td><%= trainer.name%></td>
+                <td><%= trainer.sex%></td>
+                <td><%= trainer.money%></td>
+                <td><%= trainer.gym_leader%></td>
+                <td><%= link_to "ver detalles", trainer_path(trainer.id)%></td>
+            <tr>
+        <%end%>
+    </tbody>
+</table>
