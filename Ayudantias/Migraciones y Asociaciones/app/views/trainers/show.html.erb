@@ -1,4 +1,4 @@
-<h1>Detalles del entrenadorr</h1>
+<h1>Detalles del entrenador</h1>
 <p>
   <strong>Nombre:</strong>
   <%= @trainer.name %>
@@ -18,6 +18,14 @@
   <strong>Es lider de gimnacio:</strong>
   <%= @trainer.gym_leader %>
 </p>
+
+<% if @trainer.pokemons.length() != 0 %>
+<strong>Sus pokemons son:</strong>
+<% @trainer.pokemons.each do |pk| %>
+  <p> <%= pk.name%></p>
+ <% end 
+end %>
+
 
 <%= link_to "Editar", trainer_edit_path%>
 <%= link_to "Eliminar", trainer_path, method: :delete%>

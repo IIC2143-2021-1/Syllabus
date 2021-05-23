@@ -1,9 +1,41 @@
-<h1>Pokemons#index</h1>
-<p>Find me in app/views/pokemons/index.html.erb</p>
+<h1>Detalles del Pokemon </h1>
+<p>
+  <strong>Nombre:</strong>
+  <%= @pokemon.name %>
+</p>
+
+<p>
+  <strong>Tipo:</strong>
+  <%= @pokemon.kind %>
+</p>
+
+<p>
+  <strong>Ataque:</strong>
+  <%= @pokemon.attack%>
+</p>
+
+<p>
+  <strong>Defensa:</strong>
+  <%= @pokemon.defense %>
+</p>
+
+<p>
+  <strong>Velocidad:</strong>
+  <%= @pokemon.speed %>
+</p>
+
+<p>
+  <strong>Entrenador:</strong>
+  <%= @pokemon.trainer.name %>
+  <%# Debido a la asociación creada @pokemon.trainer 
+  ahora pasa a ser la instancia del entrenador
+  por lo que puedo acceder a su nombre %>
+</p>
+
 <table class="table">
     <thead>
         <tr>
-            <th> Nombre Movimiento</th>
+            <th> Nombre Movimientos del Pokemon</th>
         <tr>
     <thead>
     <tbody>
