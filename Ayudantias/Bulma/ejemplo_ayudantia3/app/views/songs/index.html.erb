@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Canciones</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Título</th>
+      <th>Autor</th>
+      <th>Álbum</th>
+      <th>Formato</th>
+      <th>Rating</th>
+      <th>Tamaño (mb)</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @songs.each do |song| %>
+      <tr>
+        <td><%= song.title %></td>
+        <td><%= song.author %></td>
+        <td><%= song.album %></td>
+        <td><%= song.format %></td>
+        <td><%= song.rating %></td>
+        <td><%= song.size_mb %></td>
+        <td><%= link_to 'Ver detalle', song %></td>
+        <td><%= link_to 'Descargar'%></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Inicio', home_home_path %>
+<%= link_to 'Nueva Canción', new_song_path %>

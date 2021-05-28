@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Pautas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Prueba</th>
+      <th>Semestre</th>
+      <th>Año</th>
+      <th>Tamaño (mb)</th>
+      <th>Descripción</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @guidelines.each do |guideline| %>
+      <tr>
+        <td><%= guideline.test %></td>
+        <td><%= guideline.semester %></td>
+        <td><%= guideline.year %></td>
+        <td><%= guideline.size_mb %></td>
+        <td><%= guideline.description %></td>
+        <td><%= link_to 'Ver detalle', guideline %></td>
+        <td><%= link_to 'Descargar'%></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Inicio', home_home_path %>
+<%= link_to 'Nueva Pauta', new_guideline_path %>
