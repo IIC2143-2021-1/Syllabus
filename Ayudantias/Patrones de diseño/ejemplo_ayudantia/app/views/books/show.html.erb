@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Título:</strong>
+  <%= @book.title %>
+</p>
+
+<p>
+  <strong>Autor:</strong>
+  <%= @book.author %>
+</p>
+
+<p>
+  <strong>Edición:</strong>
+  <%= @book.edition %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @book.rating %>
+</p>
+
+<p>
+  <strong>Tamaño (mb):</strong>
+  <%= @book.size_mb %>
+</p>
+
+<p>
+  <strong>Descripción:</strong>
+  <%= @book.description %>
+</p>
+
+<%= link_to 'Editar', edit_book_path(@book) %> |
+<%= link_to 'Eliminar', @book, method: :delete, data: { confirm: 'Are you sure?' } %>
+<%= link_to 'Volver', books_path %>

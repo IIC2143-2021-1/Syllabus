@@ -1,0 +1,2 @@
+module GuidelinesHelper
+end

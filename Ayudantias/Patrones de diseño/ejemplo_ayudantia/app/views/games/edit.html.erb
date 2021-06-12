@@ -1,0 +1,30 @@
+<h1>Editar juego</h1>
+
+<%= form_with(model: @game, method: :patch, url: games_update_path) do |form| %>
+    <div class="field">
+        <%= form.label :Título %>
+        <%= form.text_field :title %>
+    </div>
+
+    <div class="field">
+        <%= form.label :Rating %>
+        <%= form.text_field :rating %>
+    </div>
+
+    <div class="field">
+        <%= form.label :Tamaño %>
+        <%= form.text_field :size_mb %>
+    </div>
+
+    <div class="field">
+        <%= form.label :Descripción %>
+        <%= form.text_field :description %>
+    </div>
+    <div class="action">
+        <%= form.submit "Editar Juego"%>
+    </div>
+<% end %>
+
+<%= link_to 'Volver', games_show_path(@game.id) %>
+<%= link_to 'Listado de juegos', games_index_path %>
+

@@ -1,0 +1,42 @@
+<%= form_with(model: guideline, local: true) do |form| %>
+  <% if guideline.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(guideline.errors.count, "error") %> prohibited this guideline from being saved:</h2>
+
+      <ul>
+      <% guideline.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :Prueba %>
+    <%= form.text_field :test %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Semestre %>
+    <%= form.number_field :semester %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Año %>
+    <%= form.number_field :year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Tamaño_mb %>
+    <%= form.number_field :size_mb %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Descripción %>
+    <%= form.text_area :description %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

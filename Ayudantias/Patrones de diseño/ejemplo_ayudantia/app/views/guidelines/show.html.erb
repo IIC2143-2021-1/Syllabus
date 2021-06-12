@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Prueba:</strong>
+  <%= @guideline.test %>
+</p>
+
+<p>
+  <strong>Semestre:</strong>
+  <%= @guideline.semester %>
+</p>
+
+<p>
+  <strong>Año:</strong>
+  <%= @guideline.year %>
+</p>
+
+<p>
+  <strong>Tamaño (mb):</strong>
+  <%= @guideline.size_mb %>
+</p>
+
+<p>
+  <strong>Descripción:</strong>
+  <%= @guideline.description %>
+</p>
+
+<%= link_to 'Editar', edit_guideline_path(@guideline) %> |
+<%= link_to 'Eliminar', @guideline, method: :delete, data: { confirm: 'Are you sure?' } %>
+<%= link_to 'Volver', guidelines_path %>

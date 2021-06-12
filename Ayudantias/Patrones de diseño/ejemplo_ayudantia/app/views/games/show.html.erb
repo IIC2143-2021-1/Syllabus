@@ -1,0 +1,25 @@
+<p><%= notice %></p>
+
+<p>
+    <strong>Título:</strong>
+    <%= @game.title %>
+<p/>
+
+<p>
+    <strong>Rating:</strong>
+    <%= @game.rating %>
+<p/>
+
+<p>
+    <strong>Tamaño:</strong>
+    <%= @game.size_mb %>
+<p/>
+
+<p>
+    <strong>Descripción:</strong>
+    <%= @game.description %>
+<p/>
+
+<p><%= link_to 'Volver', games_index_path %></p>
+<p><%= link_to 'Editar', games_edit_path(@game.id) %></p>
+<p><%= link_to 'Eliminar', games_delete_path(@game.id), method: :delete %></p>
